@@ -1,7 +1,7 @@
 module.exports = {
-  base: "/Java-essay/",
-  title: '标题',
-  description: '描述',
+  base: "/",
+  title: 'Java essay',
+  description: '一个学习成长的Java杂文站点',
   head: [
     [
       'link',
@@ -39,7 +39,7 @@ module.exports = {
       },
       {
         text: 'GitHub',
-        link: 'https://www.baidu.com/',
+        link: 'https://github.com/FireHH/Java-essay',
       },
     ],
   },
