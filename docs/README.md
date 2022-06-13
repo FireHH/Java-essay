@@ -1,8 +1,8 @@
 ---
 home: true
-heroImage: /header.jpg
-heroText: 标题
-tagline: 副标题
+heroImage: /img/header.jpg
+heroText: Java essay
+tagline: 最大的资本不是经验丰富、胸有成竹，而是敢于做梦、勇于试错，一起学习共勉之。
 features:
 - title: 简洁至上
   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。

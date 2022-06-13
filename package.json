@@ -1,13 +1,13 @@
 {
   "name": "Java-essay",
   "version": "1.0.0",
-  "description": "",
+  "description": "一个Java程序员的成长记录",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"dev": "vuepress dev docs",
+    "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-	"deploy": "bash deploy.sh"
+    "deploy": "bash deploy.sh"
   },
   "keywords": [],
   "author": "",
