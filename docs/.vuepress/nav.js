@@ -69,6 +69,10 @@ module.exports=[
         text: 'SpringBoot',
         items: [
             {
+                text: 'SpringBoot初识',
+                link: '/pages/springboot/',
+            },
+            {
                 text: 'SpringBoot基础',
                 link: '/pages/springboot/spring-boot-base.md',
             },
