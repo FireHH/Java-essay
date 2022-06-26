@@ -16,31 +16,31 @@ module.exports=[
             },
             {
                 text: 'Java集合',
-                link: '../pages/java-collection.md',
+                link: '/pages/java-collection.md',
             },
             {
                 text: 'Java常用类库',
-                link: '../pages/java-tools.md',
+                link: '/pages/java-tools.md',
             },
             {
                 text: 'Java IO',
-                link: '../pages/java-io.md',
+                link: '/pages/java-io.md',
             },
             {
                 text: 'Java反射',
-                link: '../pages/java-reflex.md',
+                link: '/pages/java-reflex.md',
             },
             {
                 text: 'Java泛型',
-                link: '../pages/java-t.md',
+                link: '/pages/java-t.md',
             },
             {
                 text: 'Java并发多线程',
-                link: '../pages/java-juc.md',
+                link: '/pages/java-juc.md',
             },
             {
                 text: 'Java你不知道的小事',
-                link: '../pages/java-small-story.md',
+                link: '/pages/java-small-story.md',
             },
         ],
     },
@@ -49,19 +49,19 @@ module.exports=[
         items: [
             {
                 text: 'Spring初识',
-                link: '../pages/spring.md',
+                link: '/pages/spring/spring.md',
             },
             {
                 text: 'Spring IOC',
-                link: '../pages/spring-ioc.md',
+                link: '/pages/spring/spring-ioc.md',
             },
             {
                 text: 'Spring AOP',
-                link: '../pages/spring-aop.md',
+                link: '/pages/spring/spring-aop.md',
             },
             {
                 text: 'SpringMVC',
-                link: '../pages/spring-mvc.md',
+                link: '/pages/spring/spring-mvc.md',
             },
         ],
     },
@@ -70,23 +70,23 @@ module.exports=[
         items: [
             {
                 text: 'SpringBoot基础',
-                link: '../pages/spring-boot.md',
+                link: '/pages/springboot/spring-boot-base.md',
             },
             {
                 text: 'SpringBoot自动装配原理',
-                link: '../pages/spring-boot-autoconfig.md',
+                link: '/pages/spring-boot-autoconfig.md',
             },
             {
                 text: 'SpringBoot启动原理',
-                link: '../pages/spring-boot-start.md',
+                link: '/pages/spring-boot-start.md',
             },
             {
                 text: 'SpringBoot自定义Starter',
-                link: '../pages/spring-boot-starter.md',
+                link: '/pages/spring-boot-starter.md',
             },
             {
                 text: 'SpringBoot集成MyBatis',
-                link: '../pages/spring-boot-mybatis.md',
+                link: '/pages/spring-boot-mybatis.md',
             },
         ],
     },
@@ -95,15 +95,15 @@ module.exports=[
         items: [
             {
                 text: 'SpringCloud初识',
-                link: '../pages/spring-cloud.md',
+                link: '/pages/spring-cloud.md',
             },
             {
                 text: 'SpringCloud全家桶',
-                link: '../pages/spring-cloud-all.md',
+                link: '/pages/spring-cloud-all.md',
             },
             {
                 text: 'SpringCloud Alibaba',
-                link: '../pages/spring-cloud-alibaba.md',
+                link: '/pages/spring-cloud-alibaba.md',
             },
             {
                 text: 'CAP及BASE理论',
@@ -111,38 +111,32 @@ module.exports=[
             },
             {
                 text: '分布式锁',
-                link: '../pages/distribute-lock.md',
+                link: '/pages/distribute-lock.md',
             },
             {
                 text: '分布式事务',
-                link: '../pages/distribute-trx.md',
-                items:[
-                    {
-                        text: 'Alibaba Seata',
-                        link: '../pages/alibaba-seata.md',
-                    },
-                ]
+                link: '/pages/distribute-trx.md',
             },
             {
                 text: '分布式缓存',
-                link: '../pages/distribute-cache.md',
+                link: '/pages/distribute-cache.md',
             },
         ],
     },
     {
         text: 'RPC',
-        link: '../pages/rpc.md',
+        link: '/pages/rpc.md',
     },
     {
         text: '面试',
         items: [
             {
                 text: '面试常见问题',
-                link: '../pages/article.md',
+                link: '/pages/article.md',
             },
             {
                 text: '面试笔记',
-                link: '../pages/note.md',
+                link: '/pages/note.md',
             },
         ],
     },
