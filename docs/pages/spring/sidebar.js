@@ -2,7 +2,7 @@ const sidebar=[
     {
         title: 'Spring',
         collapsable: true,
-        sidebarDepth: 1,
+        sidebarDepth: 2,
         children: [
             { title: 'Spring 初识', path: '/pages/spring/spring' },
             { title: 'Spring MVC', path: '/pages/spring/spring-mvc' },
