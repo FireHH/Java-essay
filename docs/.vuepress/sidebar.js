@@ -1,7 +1,7 @@
  const slidebar = {
-     '/pages/about/': require("../pages/about/sidebar"),
-     '/pages/spring/': require("../pages/spring/sidebar"),
-     '/pages/springboot/': require("../pages/springboot/sidebar")
+     '/pages/about/': require("../00.关于我/sidebar"),
+     '/pages/spring/': require("../02.Spring/sidebar"),
+     '/pages/springboot/': require("../03.SpringBoot/sidebar")
 };
 
 module.exports = slidebar;

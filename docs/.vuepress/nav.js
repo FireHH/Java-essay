@@ -49,19 +49,19 @@ module.exports=[
         items: [
             {
                 text: 'Spring初识',
-                link: '/pages/spring/spring.md',
+                link: '/pages/113e8b/',
             },
             {
                 text: 'Spring IOC',
-                link: '/pages/spring/spring-ioc.md',
+                link: '/pages/c5b811/',
             },
             {
                 text: 'Spring AOP',
-                link: '/pages/spring/spring-aop.md',
+                link: '/pages/b8e3a7/',
             },
             {
                 text: 'SpringMVC',
-                link: '/pages/spring/spring-mvc.md',
+                link: '/pages/d93455/',
             },
         ],
     },
@@ -70,11 +70,11 @@ module.exports=[
         items: [
             {
                 text: 'SpringBoot初识',
-                link: '/pages/springboot/',
+                link: '/pages/171a40/',
             },
             {
                 text: 'SpringBoot基础',
-                link: '/pages/springboot/spring-boot-base.md',
+                link: '/pages/springboot/10.SpringBoot初识.md',
             },
             {
                 text: 'SpringBoot自动装配原理',
@@ -145,11 +145,16 @@ module.exports=[
         ],
     },
     {
-        text: '关于',
-        link: '/pages/about/',
-    },
-    {
-        text: 'GitHub',
-        link: 'https://github.com/FireHH/Java-essay',
-    },
+        text: '关于我',
+        items: [
+            {
+                text: '简介',
+                link: '/pages/3312d0/',
+            },
+            {
+                text: '联系我',
+                link: '/pages/a30957/',
+            },
+        ],
+    }
 ]
