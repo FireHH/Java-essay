@@ -1,8 +1,7 @@
 ---
 home: true
-heroImage: /img/header.jpg
 actionText: 开始 →
-actionLink: /pages/spring/
+actionLink: /pages/3312d0/
 heroText: Java essay
 tagline: 最大的资本不是经验丰富、胸有成竹，而是敢于做梦、勇于试错，一起学习共勉之。
 features:

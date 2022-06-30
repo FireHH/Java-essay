@@ -19,7 +19,7 @@ module.exports = {
     extractHeaders: ['h2', 'h3', 'h4', 'h5', 'h6'], // 提取标题到侧边栏的级别，默认['h2', 'h3']
   },
   themeConfig: {
-    logo: '/img/logo.jpg',
+    logo: '/img/logo.png',
     lastUpdated: '最后更新时间',
     smoothScroll: true, //页面滚动
     sidebarDepth:2, //侧边栏自动显示当前激活页面中标题的链接，嵌套在页面本身的链接下。默认深度是1，提取h2标题；0禁用标题链接；最大值为2，同时提取h2和h3。
@@ -36,7 +36,7 @@ module.exports = {
     },
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: 'https://fastly.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
+      avatar: '/img/huge.jpg',
       name: 'Mr.Fire',
       slogan: '后端',
     },
@@ -131,20 +131,11 @@ module.exports = {
       [
         'vuepress-plugin-comment', // 评论
         {
-          choosen: 'gitalk',
+          choosen: 'valine',
           options: {
-            clientID: 'a6e1355287947096b88b',
-            clientSecret: 'f0e77d070fabfcd5af95bebb82b2d574d7248d71',
-            repo: 'blog-gitalk-comment', // GitHub 仓库
-            owner: 'Mr.Fire', // GitHub仓库所有者
-            admin: ['Mr.Fire'], // 对仓库有写权限的人
-            // distractionFreeMode: true,
-            pagerDirection: 'last', // 'first'正序 | 'last'倒序
-            id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
-            title: '「评论」<%- frontmatter.title %>', // GitHub issue 的标题
-            labels: ['Gitalk', 'Comment'], // GitHub issue 的标签
-            body:
-                '页面：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>', // GitHub issue 的内容
+            el: '#valine-vuepress-comment',
+            appId: 'DTvjv5hjkPB9OWpEQtm275gw-gzGzoHsz',
+            appKey: 'yzMYgj5LDur92jlDvOSzcOql'
           },
         },
       ],

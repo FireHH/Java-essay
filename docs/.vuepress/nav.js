@@ -74,7 +74,7 @@ module.exports=[
             },
             {
                 text: 'SpringBoot基础',
-                link: '/pages/springboot/10.SpringBoot初识.md',
+                link: '/pages/e5c452/',
             },
             {
                 text: 'SpringBoot自动装配原理',
