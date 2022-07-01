@@ -11,7 +11,7 @@ module.exports = {
     '/': {
       lang: 'zh-CN',
       title: "Java essay",
-      description: 'web前端技术博客,专注web前端学习与总结。JavaScript,js,ES6,TypeScript,vue,React,python,css3,html5,Node,git,github等技术文章。',
+      description: '后端技术网站,专注Java学习与总结，面试。Java基础，Spring,SpringBoot,SpringCloud,SpringCloudAlibaba,数据库设计,中间件,性能优化,开源技术等技术文章。',
     }
   },
   markdown: {
@@ -26,7 +26,7 @@ module.exports = {
     nav:require("./nav.js"),
     repo: 'FireHH/Java-essay',
     searchMaxSuggestions: 10, // 搜索结果显示最大数
-    editLinks: true, // 启用编辑
+    editLinks: false, // 启用编辑
     editLinkText: '编辑',
     // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | <自定义>    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
     sidebar: 'structuring', 

@@ -3,7 +3,7 @@ home: true
 actionText: 开始 →
 actionLink: /pages/3312d0/
 heroText: Java essay
-tagline: 最大的资本不是经验丰富、胸有成竹，而是敢于做梦、勇于试错，一起学习共勉之。
+tagline: 最大的资本不是经验丰富、胸有成竹，而是敢于做梦、勇于试错。
 features:
 - title: Java主流技术生态圈
   details: Java基础、Spring全家桶，SpringBoot，SpringCloud全家桶、面试题等
@@ -14,8 +14,7 @@ features:
 footer: Copyright © Mr.Fire
 ---
 
-::: tip 提醒
+
 ## 学习三部曲
 每当我们接触一个新的技术时，我们都应该去思考的三个问题，是什么，怎么用，为什么这样设计，即what，how，why。从这三方面入手，当完成最后一步时，你已经对他非常熟悉了。
                                                                             -- Mr.Fire
-:::
