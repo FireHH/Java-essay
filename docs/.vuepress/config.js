@@ -32,7 +32,7 @@ module.exports = {
     sidebar: 'structuring', 
     author: {
       name: 'Mr.Fire', // 必需
-      link: 'https://github.com/FireHH', // 可选的
+      link: 'https://gitee.com/firegitspace/java-essay', // 可选的
     },
     // 博主信息 (显示在首页侧边栏)
     blogger: {
@@ -53,7 +53,7 @@ module.exports = {
         {
           iconClass: 'icon-github',
           title: 'GitHub',
-          link: 'https://github.com/FireHH',
+          link: 'https://gitee.com/firegitspace/java-essay',
         },
         {
           iconClass: 'icon-erji',
@@ -67,14 +67,14 @@ module.exports = {
     footer: {
       createYear: 2021, // 博客创建年份
       copyrightInfo:
-          'Mr.Fire | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签或换行标签</br>
+          'Mr.Fire | <a href="https://gitee.com/firegitspace/java-essay" target="_blank">MIT License</a>', // 博客版权信息，支持a标签或换行标签</br>
     },
 
     // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
     extendFrontmatter: {
       author: {
         name: 'Mr.Fire',
-        link: 'https://github.com/FireHH'
+        link: 'https://gitee.com/firegitspace/java-essay'
       }
     },
 
