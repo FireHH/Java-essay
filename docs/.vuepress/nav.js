@@ -154,12 +154,12 @@ module.exports=[
         text: '面试',
         items: [
             {
-                text: '面试常见问题',
-                link: '/pages/article.md',
+                text: 'Java基础必问',
+                link: '/pages/3d1eb9/',
             },
             {
-                text: '面试笔记',
-                link: '/pages/note.md',
+                text: 'Redis面试必问',
+                link: '/pages/cc54d6/',
             },
         ],
     },
