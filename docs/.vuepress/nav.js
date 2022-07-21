@@ -98,12 +98,16 @@ module.exports=[
         text: '分布式微服务',
         items: [
             {
-                text: 'SpringCloud初识',
+                text: '什么是微服务',
                 link: '/pages/spring-cloud.md',
             },
             {
                 text: 'SpringCloud全家桶',
                 link: '/pages/spring-cloud-all.md',
+            },
+            {
+                text: 'Dubbo',
+                link: '/pages/dubbo-alibaba.md',
             },
             {
                 text: 'SpringCloud Alibaba',
@@ -128,11 +132,28 @@ module.exports=[
         ],
     },
     {
-        text: 'RPC',
-        link: '/pages/rpc.md',
+        text: '中间件',
+        items: [
+            {
+                text: 'Zookeeper',
+                link: '',
+            },
+            {
+                text: 'Nginx',
+                link: '',
+            },
+            {
+                text: 'RabbitMQ',
+                link: '',
+            },
+            {
+                text: 'RocketMQ',
+                link: 'RocketMQ',
+            },
+        ]
     },
     {
-        text: '性能分析',
+        text: '性能分析优化',
         items: [
             {
                 text: '性能分析工具之Arthas',
@@ -144,6 +165,27 @@ module.exports=[
                     {
                         text: 'Arthas进阶',
                         link: '/pages/4e4d50/',
+                    }
+                ]
+            },
+            {
+                text: '数据库性能优化',
+                items:[
+                    {
+                        text: 'MySQL索引原理',
+                        link: '',
+                    },
+                    {
+                        text: 'MySQL执行计划',
+                        link: '',
+                    },
+                    {
+                        text: 'MySQL常用排查手段',
+                        link: '',
+                    },
+                    {
+                        text: 'Oracle优化',
+                        link: '',
                     }
                 ]
             },
