@@ -53,6 +53,11 @@ module.exports = {
         {
           iconClass: 'icon-github',
           title: 'GitHub',
+          link: 'https://github.com/FireHH/Java-essay.git',
+        },
+        {
+          iconClass: 'icon-gitee',
+          title: 'Gitee',
           link: 'https://gitee.com/firegitspace/java-essay.git',
         },
         {
@@ -74,7 +79,7 @@ module.exports = {
     extendFrontmatter: {
       author: {
         name: 'Mr.Fire',
-        link: 'https://github.com/FireHH'
+        link: 'https://gitee.com/firegitspace/java-essay.git'
       }
     },
 
