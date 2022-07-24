@@ -9,6 +9,9 @@ npm run build
 # 进入生成的文件夹
 cd docs/.vuepress/dist
 
+#发布到自定义域名
+echo 'javaessay.cn' > CNAME
+
 git init
 git add -A
 git commit -m 'message'

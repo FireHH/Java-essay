@@ -165,7 +165,24 @@ module.exports=[
                     {
                         text: 'Arthas进阶',
                         link: '/pages/4e4d50/',
+                    },
+                    {
+                        text: 'SpringBoot整合Arthas',
+                        link: '/pages/f6a4ce/',
+                    },
+                    {
+                        text: 'IDEA集成Arthas插件',
+                        link: '/pages/4049d6/',
                     }
+                ]
+            },
+            {
+                text: '性能分析工具之Jprofiler',
+                items:[
+                    {
+                        text: 'Jprofiler使用',
+                        link: '',
+                    },
                 ]
             },
             {
