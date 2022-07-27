@@ -190,7 +190,7 @@ module.exports=[
                 items:[
                     {
                         text: 'MySQL索引原理',
-                        link: '',
+                        link: '/pages/bdbd0d/',
                     },
                     {
                         text: 'MySQL执行计划',
