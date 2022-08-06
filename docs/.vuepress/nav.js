@@ -69,29 +69,29 @@ module.exports=[
         text: 'SpringBoot',
         items: [
             {
-                text: 'SpringBoot初识',
+                text: 'SpringBoot基础',
                 link: '/pages/171a40/',
             },
             {
-                text: 'SpringBoot基础',
-                link: '/pages/e5c452/',
+                text: 'SpringBoot进阶',
+                link: '/pages/ebbfd3/',
             },
-            {
-                text: 'SpringBoot自动装配原理',
-                link: '/pages/spring-boot-autoconfig.md',
-            },
-            {
-                text: 'SpringBoot启动原理',
-                link: '/pages/spring-boot-start.md',
-            },
-            {
-                text: 'SpringBoot自定义Starter',
-                link: '/pages/spring-boot-starter.md',
-            },
-            {
-                text: 'SpringBoot集成MyBatis',
-                link: '/pages/spring-boot-mybatis.md',
-            },
+            // {
+            //     text: 'SpringBoot自定义Starter',
+            //     link: '/pages/e796dd/',
+            // },
+            // {
+            //     text: 'SpringBoot集成MyBatis',
+            //     link: '/pages/bdab60/',
+            // },
+            // {
+            //     text: 'SpringBoot自动装配原理',
+            //     link: '/pages/7fb4a5/',
+            // },
+            // {
+            //     text: 'SpringBoot启动原理',
+            //     link: '/pages/ebbfd3/',
+            // },
         ],
     },
     {
@@ -156,7 +156,8 @@ module.exports=[
         text: '性能分析优化',
         items: [
             {
-                text: '性能分析工具之Arthas',
+                text: '性能分析工具',
+                link: '/pages/8f7142/',
                 items:[
                     {
                         text: 'Arthas初识',
