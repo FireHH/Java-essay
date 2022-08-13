@@ -32,4 +32,4 @@ Vue，vuepress，vdoing
 
 #### 链接
 1.  vuepress：<https://github.com/vuejs/vuepress>
-1.  vdoing-theme：<https://github.com/xugaoyi/vuepress-theme-vdoing>
+2.  vdoing-theme：<https://github.com/xugaoyi/vuepress-theme-vdoing>
