@@ -5,19 +5,20 @@
 
 #### 软件架构
 软件架构说明
-Vue
+Vue，vuepress，vdoing
 
 #### 安装教程
 
-1.  git clone https://gitee.com/firegitspace/java-essay.git
+1.  git clone https://github.com/FireHH/Java-essay.git
 2.  npm install
 3.  npm run dev
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  docs目录下新建目录即可创建自己的文章
+2.  文章采用Markdown文档书写
+3.  更多教程参考vuepress官网及主题vdoing官网
+
 
 #### 参与贡献
 
@@ -26,12 +27,6 @@ Vue
 3.  提交代码
 4.  新建 Pull Request
 
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+#### 链接
+1.  vuepress：https://github.com/vuejs/vuepress
+1.  vdoing-theme：https://github.com/xugaoyi/vuepress-theme-vdoing
