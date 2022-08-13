@@ -235,5 +235,9 @@ module.exports=[
                 link: '/pages/a30957/',
             },
         ],
+    },
+    {
+        text: 'Gitee',
+        link: 'https://gitee.com/firegitspace/java-essay.git',
     }
 ]
