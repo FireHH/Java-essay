@@ -9,9 +9,9 @@ Vue
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  git clone https://gitee.com/firegitspace/java-essay.git
+2.  npm install
+3.  npm run dev
 
 #### 使用说明
 
