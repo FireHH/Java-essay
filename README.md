@@ -36,6 +36,7 @@ Vue，vuepress
 1. vuepress：<https://github.com/vuejs/vuepress>
 2. vdoing-theme：<https://github.com/xugaoyi/vuepress-theme-vdoing>
 
-### 更多
+#### 更多
 欢迎关注公众号
+
 ![](https://fire-repository.oss-cn-beijing.aliyuncs.com/logo/architect.jpg)
