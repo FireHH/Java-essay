@@ -5,8 +5,8 @@ const dayjs = require("dayjs");
 module.exports = {
   base: "/",
   title: 'Java essay',
-  theme: require.resolve('../../theme/vdoing'),
-  // theme: 'vdoing',
+  // theme: require.resolve('../../theme/vdoing'),
+  theme: 'vdoing',
   description: '一个Java程序员的成长记录',
   locales: {
     '/': {
@@ -33,7 +33,7 @@ module.exports = {
     sidebar: 'structuring', 
     author: {
       name: 'Mr.Fire', // 必需
-      link: 'https://gitee.com/firegitspace/java-essay.git', // 可选的
+      link: 'https://github.com/FireHH/Java-essay.git', // 可选的
     },
     // 博主信息 (显示在首页侧边栏)
     blogger: {

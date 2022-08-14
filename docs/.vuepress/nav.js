@@ -157,55 +157,15 @@ module.exports=[
         items: [
             {
                 text: '性能分析工具',
-                link: '/pages/8f7142/',
-                items:[
-                    {
-                        text: 'Arthas初识',
-                        link: '/pages/8f7142/',
-                    },
-                    {
-                        text: 'Arthas进阶',
-                        link: '/pages/4e4d50/',
-                    },
-                    {
-                        text: 'SpringBoot整合Arthas',
-                        link: '/pages/f6a4ce/',
-                    },
-                    {
-                        text: 'IDEA集成Arthas插件',
-                        link: '/pages/4049d6/',
-                    }
-                ]
-            },
-            {
-                text: '性能分析工具之Jprofiler',
-                items:[
-                    {
-                        text: 'Jprofiler使用',
-                        link: '',
-                    },
-                ]
+                link: '/pages/8f7142/'
             },
             {
                 text: '数据库性能优化',
-                items:[
-                    {
-                        text: 'MySQL索引原理',
-                        link: '/pages/bdbd0d/',
-                    },
-                    {
-                        text: 'MySQL执行计划',
-                        link: '',
-                    },
-                    {
-                        text: 'MySQL常用排查手段',
-                        link: '',
-                    },
-                    {
-                        text: 'Oracle优化',
-                        link: '',
-                    }
-                ]
+                link: '/pages/bdbd0d/'
+            },
+            {
+                text: '性能优化',
+                link: '/pages/4b3850/'
             },
             
         ]
@@ -214,12 +174,40 @@ module.exports=[
         text: '面试',
         items: [
             {
-                text: 'Java基础必问',
+                text: 'Java基础面试必问',
                 link: '/pages/3d1eb9/',
             },
             {
-                text: 'Redis面试必问',
+                text :'JavaWeb面试必问',
+                link :'/pages/98558b/'
+            },
+            {
+                text :'Java框架面试必问',
+                link :''
+            },
+            {
+                text :'数据库面试必问',
+                link :''
+            },
+            {
+                text :'中间件面试必问',
+                link :''
+            },
+            {
+                text :'分布式微服务面试必问',
+                link :''
+            },
+            {
+                text :'Linux面试必问',
+                link :''
+            },
+            {
+                text: '计算机网络面试必问',
                 link: '/pages/cc54d6/',
+            },
+            {
+                text :'开放性问题面试问必问',
+                link :''
             },
         ],
     },
