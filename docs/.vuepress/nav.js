@@ -52,16 +52,16 @@ module.exports=[
                 link: '/pages/113e8b/',
             },
             {
-                text: 'Spring IOC',
+                text: 'Spring核心Ioc及Aop',
                 link: '/pages/c5b811/',
-            },
-            {
-                text: 'Spring AOP',
-                link: '/pages/b8e3a7/',
             },
             {
                 text: 'SpringMVC',
                 link: '/pages/d93455/',
+            },
+            {
+                text: 'Spring注入Bean的几种方式',
+                link: '/pages/473201/',
             },
         ],
     },
