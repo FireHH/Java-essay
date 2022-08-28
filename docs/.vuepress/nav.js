@@ -132,7 +132,7 @@ module.exports=[
         ],
     },
     {
-        text: '中间件',
+        text: '中间件+云原生',
         items: [
             {
                 text: 'Zookeeper',
@@ -150,6 +150,10 @@ module.exports=[
                 text: 'RocketMQ',
                 link: 'RocketMQ',
             },
+            {
+                text: 'Docker入门到精通',
+                link: '/pages/1e77b5/'
+            }
         ]
     },
     {

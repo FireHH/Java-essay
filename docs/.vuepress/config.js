@@ -88,7 +88,8 @@ module.exports = {
       author: {
         name: 'Mr.Fire',
         link: 'https://gitee.com/firegitspace/java-essay.git'
-      }
+      },
+      titleTag: '',
     },
 
     // 自定义hmtl(广告)模块
