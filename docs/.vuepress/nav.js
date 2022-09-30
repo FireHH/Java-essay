@@ -99,7 +99,7 @@ module.exports=[
         items: [
             {
                 text: '什么是微服务',
-                link: '/pages/2f8402',
+                link: '/pages/2f8402/',
             },
             {
                 text: 'SpringCloud全家桶',
