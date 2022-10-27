@@ -16,7 +16,7 @@ module.exports=[
             },
             {
                 text: 'Java集合',
-                link: '/pages/java-collection.md',
+                link:"/pages/12bd96/",
             },
             {
                 text: 'Java常用类库',

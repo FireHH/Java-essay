@@ -1,3 +1,16 @@
+---
+title: 做了一个网站上线就被DDOS攻击怎么办？
+date: 2022-10-17 22:40:22
+permalink: /pages/20d1c3/
+sidebar: auto
+categories:
+  - 随笔
+tags:
+  - 
+author: 
+  name: Mr.Fire
+  link: https://gitee.com/firegitspace/java-essay.git
+---
 
 前不久，某音<前端盼哥>发布了个人的项目格子桌面，由于粉丝量比较多，热度还是比较大的，一大波程序员赶来凑热闹，网站内测阶段就遭到DDOS攻击，上线更是被狂刷CDN流量，
 先不说产品怎么样，不予评价，每个努力的人都值得被尊重！今天主要来说说如何防DDOS攻击？
