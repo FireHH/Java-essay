@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "deploy": "bash deploy.sh"
+    "deploy": "bash deploy.sh",
+    "baiduPush": "node utils/baiduPush.js https://javaessay.cn && bash baiduPush.sh"
   },
   "keywords": [],
   "author": "",
