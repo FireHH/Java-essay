@@ -16,6 +16,9 @@ git init
 git add -A
 git commit -m 'message'
 
+git config --global user.email "m18388461281@163.com"
+git config --global user.name "FireHH"
+
 # 如果发布到 https://<FireHH>.github.io
 #git remote add origin git@github.com:FireHH/Java-essay.git
 git push -f git@github.com:FireHH/firehh.github.io.git master
