@@ -20,7 +20,6 @@ echo 'javaessay.cn' > CNAME
 
 #git config --global user.email "m18388461281@163.com"
 #git config --global user.name "FireHH"
-
 git init
 git add -A
 
