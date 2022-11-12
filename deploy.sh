@@ -24,7 +24,7 @@ git config --global user.name "FireHH"
 git add -A
 
 git commit -m "deploy, $commit_info"
-remote_addr=https://FireHH:${{secrets.ACCESS_TOKEN}}@${remote_addr}
+remote_addr=https://FireHH:${{secrets.ACCESS_TOKEN}}@${push_addr}
 git remote add origin ${remote_addr}
 git push origin HEAD:$deploy_branch --force # 推送到github $deploy_branch分支
 
