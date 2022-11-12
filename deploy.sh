@@ -3,9 +3,6 @@
 # 确保脚本抛出遇到的错误
 set -e
 
-
-push_addr=git@github.com:FireHH/Java-essay.git # git提交地址，也可以手动设置，比如：push_addr=git@github.com:xugaoyi/vuepress-theme-vdoing.git
-commit_info=`git describe --all --always --long`
 dist_path=docs/.vuepress/dist # 打包生成的文件夹路径
 deploy_branch=gh-pages # 推送的分支
 
@@ -17,16 +14,17 @@ cd $dist_path
 
 #发布到自定义域名
 echo 'javaessay.cn' > CNAME
+if [ -z "$GITHUB_TOKEN" ]; then  # -z 字符串 长度为0则为true；$GITHUB_TOKEN来自于github仓库`Settings/Secrets`设置的私密环境变量
+  msg='deploy'
+  githubUrl=git@github.com:FireHH/Java-essay.git
+else
+  msg='deploy'
+  githubUrl=https://FireHH:${GITHUB_TOKEN}@git@github.com:FireHH/Java-essay.git
 
 git init
-git config --global user.email "m18388461281@163.com"
-git config --global user.name "FireHH"
 git add -A
-
-git commit -m "deploy, $commit_info"
-remote_addr=https://FireHH:${{secrets.ACCESS_TOKEN}}@${push_addr}
-git remote add origin ${remote_addr}
-git push origin HEAD:$deploy_branch --force # 推送到github $deploy_branch分支
+git commit -m "${msg}"
+git push -f $githubUrl master:$deploy_branch # 推送到github
 
 cd -
 rm -rf $dist_path
