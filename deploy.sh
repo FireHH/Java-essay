@@ -21,7 +21,7 @@ if [ -z "$GITHUB_TOKEN" ]; then  # -z 字符串 长度为0则为true；$GITHUB_T
   githubUrl=git@github.com:FireHH/Java-essay.git
 else
   msg='Action workflow deploy'
-  githubUrl=https://FireHH:${GITHUB_TOKEN}@github.com:FireHH/Java-essay.git
+  githubUrl=https://FireHH:${GITHUB_TOKEN}@github.com/FireHH/Java-essay.git
 fi
 git init
 git config user.name $user_name
