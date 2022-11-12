@@ -5,6 +5,8 @@ set -e
 
 dist_path=docs/.vuepress/dist # 打包生成的文件夹路径
 deploy_branch=gh-pages # 推送的分支
+user_name=FireHH
+user_email=m18388461281@163.com
 
 # 生成静态文件
 npm run build
@@ -22,6 +24,8 @@ else
   githubUrl=https://FireHH:${GITHUB_TOKEN}@github.com:FireHH/Java-essay.git
 fi
 git init
+git config user.name $user_name
+git config user.email $user_email
 git add -A
 git commit -m "${msg}"
 git push -f $githubUrl $deploy_branch # 推送到github
