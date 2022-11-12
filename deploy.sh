@@ -28,8 +28,7 @@ git config user.name $user_name
 git config user.email $user_email
 git add -A
 git commit -m "${msg}"
-git remote add origin $githubUrl
-git push -f $githubUrl $deploy_branch # 推送到github
+git push -f $githubUrl master:$deploy_branch # 推送到github
 
 cd -
 rm -rf $dist_path
