@@ -18,8 +18,8 @@ if [ -z "$GITHUB_TOKEN" ]; then  # -z 字符串 长度为0则为true；$GITHUB_T
   msg='deploy'
   githubUrl=git@github.com:FireHH/Java-essay.git
 else
-  msg='deploy'
-  githubUrl=https://FireHH:${GITHUB_TOKEN}@git@github.com:FireHH/Java-essay.git
+  msg='Action workflow deploy'
+  githubUrl=https://FireHH:${GITHUB_TOKEN}@github.com:FireHH/Java-essay.git
 
 git init
 git add -A
