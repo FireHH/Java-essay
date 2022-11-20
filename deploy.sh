@@ -15,7 +15,7 @@ npm run build
 cd $dist_path
 
 #发布到自定义域名
-echo 'javaessay.cn' > CNAME
+echo 'www.javaessay.cn' > CNAME
 if [ -z "$GITHUB_TOKEN" ]; then  # -z 字符串 长度为0则为true；$GITHUB_TOKEN来自于github仓库`Settings/Secrets`设置的私密环境变量
   msg='deploy'
   githubUrl=git@github.com:FireHH/Java-essay.git
