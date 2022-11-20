@@ -8,7 +8,7 @@
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
     "deploy": "bash deploy.sh",
-    "baiduPush": "node utils/baiduPush.js https://javaessay.cn && bash baiduPush.sh"
+    "baiduPush": "node utils/baiduPush.js https://www.javaessay.cn && bash baiduPush.sh"
   },
   "keywords": [],
   "author": "",
