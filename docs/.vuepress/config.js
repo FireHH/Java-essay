@@ -7,7 +7,7 @@ module.exports = {
   title: 'Java essay',
   // theme: require.resolve('../../theme/vdoing'),
   theme: 'vdoing',
-  description: '一个Java程序员的成长记录',
+  description: '后端技术网站,专注Java学习与总结，面试。Java基础，Spring,SpringBoot,SpringCloud,SpringCloudAlibaba,数据库设计,中间件,性能优化,开源技术等技术文章。',
   locales: {
     '/': {
       lang: 'zh-CN',
@@ -101,11 +101,23 @@ module.exports = {
       'meta',
       {
         name: 'keywords',
-        content: '个人技术网站，Spring，SpringBoot，SpringCloud,中间件，数据库，架构，面试等',
+        content: 'Java essay',
       },
     ],
     ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证（你可以去掉）
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
+    [
+      "script",
+      {},
+    `var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?b4efcb3b959fd674ffa886696241c972";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+    `
+    ]     
   ],
   // 插件配置
   plugins: [
