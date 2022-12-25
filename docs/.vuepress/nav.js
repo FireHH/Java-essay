@@ -108,7 +108,7 @@ module.exports=[
         items: [
             {
                 text: 'Zookeeper',
-                link: '',
+                link: '/pages/09fbd0/',
             },
             {
                 text: 'Nginx',
@@ -116,11 +116,11 @@ module.exports=[
             },
             {
                 text: 'RabbitMQ',
-                link: '',
+                link: '/pages/08d72f/',
             },
             {
                 text: 'RocketMQ',
-                link: 'RocketMQ',
+                link: '/pages/25443e/',
             },
             {
                 text: 'Docker入门到精通',
