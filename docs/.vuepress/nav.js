@@ -7,36 +7,16 @@ module.exports=[
         text: 'Java基础',
         items: [
             {
-                text: 'Java面向对象',
-                link: '/pages/java-base.md',
+                text: 'Java基础',
+                link: '/pages/c41b1f/',
             },
             {
-                text: 'Java数据类型',
-                link: '/pages/java-datatype.md',
+                text: 'Java进阶',
+                link: '/pages/c41b1f/',
             },
             {
-                text: 'Java集合',
-                link:"/pages/12bd96/",
-            },
-            {
-                text: 'Java常用类库',
-                link: '/pages/java-tools.md',
-            },
-            {
-                text: 'Java IO',
-                link: '/pages/java-io.md',
-            },
-            {
-                text: 'Java反射',
-                link: '/pages/java-reflex.md',
-            },
-            {
-                text: 'Java泛型',
-                link: '/pages/java-t.md',
-            },
-            {
-                text: 'Java并发多线程',
-                link: '/pages/java-juc.md',
+                text: '设计模式',
+                link: '/pages/2be000/',
             },
             {
                 text: 'Java你不知道的小事',
@@ -52,16 +32,8 @@ module.exports=[
                 link: '/pages/113e8b/',
             },
             {
-                text: 'Spring核心Ioc及Aop',
-                link: '/pages/c5b811/',
-            },
-            {
-                text: 'SpringMVC',
-                link: '/pages/d93455/',
-            },
-            {
-                text: 'Spring注入Bean的几种方式',
-                link: '/pages/473201/',
+                text: 'Spring进阶',
+                link: '/pages/152a03/',
             },
         ],
     },
