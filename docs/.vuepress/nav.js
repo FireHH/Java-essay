@@ -48,22 +48,6 @@ module.exports=[
                 text: 'SpringBoot进阶',
                 link: '/pages/ebbfd3/',
             },
-            // {
-            //     text: 'SpringBoot自定义Starter',
-            //     link: '/pages/e796dd/',
-            // },
-            // {
-            //     text: 'SpringBoot集成MyBatis',
-            //     link: '/pages/bdab60/',
-            // },
-            // {
-            //     text: 'SpringBoot自动装配原理',
-            //     link: '/pages/7fb4a5/',
-            // },
-            // {
-            //     text: 'SpringBoot启动原理',
-            //     link: '/pages/ebbfd3/',
-            // },
         ],
     },
     {
