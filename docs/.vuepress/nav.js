@@ -59,7 +59,7 @@ module.exports=[
             },
             {
                 text: 'SpringCloud全家桶',
-                link: '/pages/spring-cloud-all.md',
+                link: '/pages/59a2b4/',
             },
             {
                 text: 'Dubbo',
