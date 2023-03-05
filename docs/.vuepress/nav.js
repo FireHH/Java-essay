@@ -68,23 +68,7 @@ module.exports=[
             {
                 text: 'SpringCloud Alibaba',
                 link: '/pages/spring-cloud-alibaba.md',
-            },
-            {
-                text: 'CAP及BASE理论',
-                link: '../pages/cap-base.md',
-            },
-            {
-                text: '分布式锁',
-                link: '/pages/distribute-lock.md',
-            },
-            {
-                text: '分布式事务',
-                link: '/pages/distribute-trx.md',
-            },
-            {
-                text: '分布式缓存',
-                link: '/pages/distribute-cache.md',
-            },
+            }
         ],
     },
     {
@@ -183,9 +167,9 @@ module.exports=[
                 link: '/pages/a30957/',
             },
         ],
-    },
-    {
-        text: 'Gitee',
-        link: 'https://gitee.com/firegitspace/java-essay.git',
     }
+    // {
+    //     text: 'Gitee',
+    //     link: 'https://gitee.com/firegitspace/java-essay.git',
+    // }
 ]

@@ -25,7 +25,7 @@ module.exports = {
     smoothScroll: true, //页面滚动
     sidebarDepth:2, //侧边栏自动显示当前激活页面中标题的链接，嵌套在页面本身的链接下。默认深度是1，提取h2标题；0禁用标题链接；最大值为2，同时提取h2和h3。
     nav:require("./nav.js"),
-    repo: 'FireHH/Java-essay',
+    // repo: 'FireHH/Java-essay',
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     editLinks: false, // 启用编辑
     editLinkText: '编辑',
@@ -33,7 +33,7 @@ module.exports = {
     sidebar: 'structuring', 
     author: {
       name: 'Mr.Fire', // 必需
-      link: 'https://github.com/FireHH/Java-essay.git', // 可选的
+      link: 'https://github.com/FireHH', // 可选的
     },
     // 博主信息 (显示在首页侧边栏)
     blogger: {
@@ -49,7 +49,7 @@ module.exports = {
     // bodyBgImgOpacity: 0.5, // body背景图透明度，选值 0.1~1.0, 默认0.5
     // bodyBgImgInterval: 2, // body多张背景图时的切换间隔, 默认15，单位s
 
-    // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
+    // 社交图标 (显示于博主信息栏和页脚栏。)
     social: {
       // iconfontCssFile: '//at.alicdn.com/t/xxx.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自己添加。阿里图片库：https://www.iconfont.cn/
       icons: [
@@ -61,12 +61,12 @@ module.exports = {
         {
           iconClass: 'icon-github',
           title: 'GitHub',
-          link: 'https://github.com/FireHH/Java-essay.git',
+          link: 'https://github.com/FireHH/',
         },
         {
           iconClass: 'icon-gitee',
           title: 'Gitee',
-          link: 'https://gitee.com/firegitspace/java-essay.git',
+          link: 'https://gitee.com/firegitspace/',
         },
         {
           iconClass: 'icon-erji',
@@ -87,7 +87,7 @@ module.exports = {
     extendFrontmatter: {
       author: {
         name: 'Mr.Fire',
-        link: 'https://gitee.com/firegitspace/java-essay.git'
+        link: 'https://gitee.com/firegitspace/'
       }
     },
 

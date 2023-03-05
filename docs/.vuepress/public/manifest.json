@@ -16,10 +16,10 @@
   "related_applications": [
     {
       "platform": "web"
-    },
-    {
-      "platform": "Java-essay",
-      "url": "https://github.com/FireHH/Java-essay"
     }
+//    {
+//      "platform": "Java-essay",
+//      "url": "https://github.com/FireHH/Java-essay"
+//    }
   ]
 }
