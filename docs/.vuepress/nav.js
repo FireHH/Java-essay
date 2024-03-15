@@ -19,8 +19,12 @@ module.exports=[
                 link: '/pages/2be000/',
             },
             {
+                text: '多线程',
+                link: '/pages/908536/',
+            },
+            {
                 text: 'Java你不知道的小事',
-                link: '/pages/java-small-story.md',
+                link: '/pages/65b7e2/',
             },
         ],
     },
@@ -35,11 +39,6 @@ module.exports=[
                 text: 'Spring进阶',
                 link: '/pages/152a03/',
             },
-        ],
-    },
-    {
-        text: 'SpringBoot',
-        items: [
             {
                 text: 'SpringBoot基础',
                 link: '/pages/171a40/',
@@ -67,17 +66,18 @@ module.exports=[
             },
             {
                 text: 'SpringCloud Alibaba',
-                link: '/pages/spring-cloud-alibaba.md',
-            }
+                link: '/pages/1c063e/',
+            },
+            {
+                text: 'Zookeeper',
+                link: '/pages/09fbd0/',
+            },
         ],
     },
     {
         text: '中间件+云原生',
         items: [
-            {
-                text: 'Zookeeper',
-                link: '/pages/09fbd0/',
-            },
+
             {
                 text: 'Nginx',
                 link: '',
@@ -97,6 +97,15 @@ module.exports=[
         ]
     },
     {
+        text: '前端',
+        items: [
+            {
+                text: 'Vue',
+                link: '/pages/49f7d3/',
+            }
+        ]
+    },
+    {
         text: '性能分析优化',
         items: [
             {
@@ -111,7 +120,7 @@ module.exports=[
                 text: '性能优化',
                 link: '/pages/4b3850/'
             },
-            
+
         ]
     },
     {
@@ -156,6 +165,19 @@ module.exports=[
         ],
     },
     {
+        text: '生活攒钱',
+        items: [
+            {
+                text: '30岁如何打算',
+                link: '/pages/',
+            },
+            {
+                text: '省钱小妙招',
+                link: '/pages/',
+            }
+        ]
+    },
+    {
         text: '关于我',
         items: [
             {
@@ -167,9 +189,9 @@ module.exports=[
                 link: '/pages/a30957/',
             },
         ],
+    },
+    {
+        text: 'GitHub',
+        link: 'https://github.com/FireHH/Java-essay.git',
     }
-    // {
-    //     text: 'Gitee',
-    //     link: 'https://gitee.com/firegitspace/java-essay.git',
-    // }
 ]
