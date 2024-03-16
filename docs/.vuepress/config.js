@@ -7,12 +7,12 @@ module.exports = {
   title: 'Java essay',
   // theme: require.resolve('../../theme/vdoing'),
   theme: 'vdoing',
-  description: '后端技术网站,专注Java学习与总结，面试。Java基础，Spring,SpringBoot,SpringCloud,SpringCloudAlibaba,数据库设计,中间件,性能优化,开源技术等技术文章。',
+  description: '个人技术网站,专注Java学习与总结，面试。Java基础，Spring,SpringBoot,SpringCloud,SpringCloudAlibaba,数据库设计,中间件,性能优化,开源技术等技术文章。',
   locales: {
     '/': {
       lang: 'zh-CN',
       title: "Java essay",
-      description: '后端技术网站,专注Java学习与总结，面试。Java基础，Spring,SpringBoot,SpringCloud,SpringCloudAlibaba,数据库设计,中间件,性能优化,开源技术等技术文章。',
+      description: '个人技术网站,专注Java学习与总结，面试。Java基础，Spring,SpringBoot,SpringCloud,SpringCloudAlibaba,数据库设计,中间件,性能优化,开源技术等技术文章。',
     }
   },
   markdown: {
@@ -39,7 +39,7 @@ module.exports = {
     blogger: {
       avatar: '/img/huge.jpg',
       name: 'Mr.Fire',
-      slogan: '后端程序员一枚',
+      slogan: '全栈工程师',
     },
     categoryText: '随笔', // 碎片化文章（_posts文件夹的文章）预设生成的分类值，默认'随笔'
     // bodyBgImg: [
