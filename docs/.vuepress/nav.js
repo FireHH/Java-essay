@@ -123,6 +123,10 @@ module.exports=[
         ]
     },
     {
+        text: '友链',
+        link: '/pages/e05d36/',
+    },
+    {
         text: '关于我',
         items: [
             {

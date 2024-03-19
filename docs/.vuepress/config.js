@@ -7,12 +7,12 @@ module.exports = {
   title: 'Java essay',
   // theme: require.resolve('../../theme/vdoing'),
   theme: 'vdoing',
-  description: '个人技术网站,专注Java学习与总结，面试。Java基础，Spring,SpringBoot,SpringCloud,SpringCloudAlibaba,数据库设计,中间件,性能优化,开源技术等技术文章。',
+  description: '技术博客,专注Java学习与总结，生活经验记录，赚钱养家！',
   locales: {
     '/': {
       lang: 'zh-CN',
       title: "Java essay",
-      description: '个人技术网站,专注Java学习与总结，面试。Java基础，Spring,SpringBoot,SpringCloud,SpringCloudAlibaba,数据库设计,中间件,性能优化,开源技术等技术文章。',
+      description: '技术博客,专注Java学习与总结，生活经验记录，赚钱养家！',
     }
   },
   markdown: {
