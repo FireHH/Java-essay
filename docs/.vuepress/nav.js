@@ -99,8 +99,12 @@ module.exports=[
                 link: '/pages/8f7142/'
             },
             {
-                text: '中间件+云原生',
+                text: '中间件',
                 link: '/pages/08d72f/'
+            },
+            {
+                text: '云原生',
+                link: '/pages/1e77b5/'
             },
             {
                 text: '面试',
