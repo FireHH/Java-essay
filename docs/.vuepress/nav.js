@@ -80,6 +80,10 @@ module.exports=[
             {
                 text: 'Vue',
                 link: '/pages/49f7d3/',
+            },
+            {
+                text: '小程序',
+                link: '/pages/bc2632/',
             }
         ]
     },
@@ -93,6 +97,14 @@ module.exports=[
             {
                 text: '数据库',
                 link: '/pages/f8206f/'
+            },
+            {
+                text: 'python',
+                link: '/pages/4b8678/'
+            },
+            {
+                text: '大数据',
+                link: '/pages/e2f508/'
             },
             {
                 text: '性能分析优化',
