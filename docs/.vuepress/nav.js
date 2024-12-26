@@ -144,16 +144,7 @@ module.exports=[
     },
     {
         text: '关于我',
-        items: [
-            {
-                text: '简介',
-                link: '/pages/3312d0/',
-            },
-            {
-                text: '联系我',
-                link: '/pages/a30957/',
-            },
-        ],
+        link: '/pages/3312d0/'
     },
     {
         text: 'GitHub',
