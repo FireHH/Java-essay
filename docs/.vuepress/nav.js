@@ -67,11 +67,7 @@ module.exports=[
             {
                 text: 'SpringCloud Alibaba',
                 link: '/pages/1c063e/',
-            },
-            {
-                text: 'Zookeeper',
-                link: '/pages/09fbd0/',
-            },
+            }
         ],
     },
     {
@@ -92,7 +88,7 @@ module.exports=[
         items: [
             {
                 text: '博客搭建',
-                link: '/pages/0cc235/'
+                link: '/pages/7ec1f4/'
             },
             {
                 text: '数据库',
@@ -129,12 +125,16 @@ module.exports=[
         text: '生活攒钱',
         items: [
             {
-                text: '30岁如何打算',
-                link: '/pages/',
+                text: '外卖霸王餐',
+                link: '/pages/d352f8/',
             },
             {
-                text: '省钱小妙招',
-                link: '/pages/',
+                text: '打工人的带饭生活',
+                link: '/pages/e55cba/',
+            },
+            {
+                text: '30岁我该怎么办',
+                link: '/pages/78cd23/',
             }
         ]
     },
