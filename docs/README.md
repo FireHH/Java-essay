@@ -4,6 +4,7 @@ actionText: 开始 →
 actionLink: /archives/
 heroText: Java essay
 tagline: 专注Java学习与分享，经验之谈，热爱生活，赚钱养家！
+bannerBg: background:url(/img/header.jpg) center center / cover no-repeat
 features:
 - title: Java主流技术生态圈
   details: Java基础、Spring全家桶，SpringBoot，Mybatis，面试八股文等

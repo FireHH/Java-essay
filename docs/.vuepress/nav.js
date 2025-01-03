@@ -8,7 +8,7 @@ module.exports=[
         items: [
             {
                 text: 'Java基础',
-                link: '/pages/c41b1f/',
+                link: '/pages/46aa22/',
             },
             {
                 text: 'Java进阶',

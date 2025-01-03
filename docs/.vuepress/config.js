@@ -30,7 +30,7 @@ module.exports = {
     editLinks: false, // 启用编辑
     editLinkText: '编辑',
     // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | <自定义>    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
-    sidebar: 'structuring', 
+    sidebar: 'structuring',
     author: {
       name: 'Mr.Fire', // 必需
       link: 'https://github.com/FireHH', // 可选的
@@ -48,7 +48,7 @@ module.exports = {
     // ], // body背景大图，默认无。 单张图片 String | 多张图片 Array, 多张图片时隔bodyBgImgInterval切换一张。
     // bodyBgImgOpacity: 0.5, // body背景图透明度，选值 0.1~1.0, 默认0.5
     // bodyBgImgInterval: 2, // body多张背景图时的切换间隔, 默认15，单位s
-
+    archive: true, // 归档页
     // 社交图标 (显示于博主信息栏和页脚栏。)
     social: {
       // iconfontCssFile: '//at.alicdn.com/t/xxx.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自己添加。阿里图片库：https://www.iconfont.cn/
@@ -117,7 +117,7 @@ module.exports = {
       s.parentNode.insertBefore(hm, s);
     })();
     `
-    ]     
+    ]
   ],
   // 插件配置
   plugins: [
@@ -130,10 +130,10 @@ module.exports = {
       //     hm: baiduCode,
       //   },
       // ],
-    
+
       // 全文搜索。 ⚠️注意：此插件会在打开网站时多加载部分js文件用于搜索，导致初次访问网站变慢。如在意初次访问速度的话可以不使用此插件！（推荐：vuepress-plugin-thirdparty-search）
       // 'fulltext-search',
-    
+
       [
         'one-click-copy', // 代码块复制按钮
         {
@@ -143,7 +143,7 @@ module.exports = {
           showInMobile: false, // whether to display on the mobile side, default: false.
         },
       ],
-        
+
       [
         'vuepress-plugin-zooming', // 放大图片
         {
@@ -160,7 +160,8 @@ module.exports = {
           options: {
             el: '#valine-vuepress-comment',
             appId: 'DTvjv5hjkPB9OWpEQtm275gw-gzGzoHsz',
-            appKey: 'yzMYgj5LDur92jlDvOSzcOql'
+            appKey: 'yzMYgj5LDur92jlDvOSzcOql',
+            path: '<%- frontmatter.commentid || frontmatter.permalink %>'
           },
         },
       ],
