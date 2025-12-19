@@ -71,6 +71,19 @@ module.exports=[
         ],
     },
     {
+        text: 'AI',
+        items: [
+            {
+                text: 'AI技术',
+                link: '',
+            },
+            {
+                text: '工具',
+                link: '/pages/99fb40/',
+            },
+        ],
+    },
+    {
         text: '前端',
         items: [
             {
