@@ -75,7 +75,7 @@ module.exports=[
         items: [
             {
                 text: 'AI技术',
-                link: '',
+                link: '/pages/99b53f/',
             },
             {
                 text: '工具',
