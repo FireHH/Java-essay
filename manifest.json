@@ -1,0 +1,25 @@
+{
+  "name": "Java-essay",
+  "short_name": "Java-essay",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#2196f3",
+  "description": "一个Java程序员的成长记录",
+  "theme_color": "blue",
+  "icons": [
+    {
+      "src": "./img/logo.jpg",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "web"
+    }
+//    {
+//      "platform": "Java-essay",
+//      "url": "https://github.com/FireHH/Java-essay"
+//    }
+  ]
+}
